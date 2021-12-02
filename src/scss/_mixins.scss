@@ -1,0 +1,15 @@
+@mixin block( $width, $height, $padding, $borderRadius, $backgroundColor ) {
+  width: $width;
+  height: $height;
+  padding: $padding;
+  border-radius: $borderRadius;
+  background-color: $backgroundColor;
+}
+@mixin textBlock( $fontSize, $lineHeight, $color, $fontStyle,  $fontWeight) {
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  color: $color;
+  font-style: $fontStyle;
+  font-weight: $fontWeight;
+  font-family: 'Russo One', sans-serif;
+}

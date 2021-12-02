@@ -1,0 +1,35 @@
+  html{
+    height: 100%;
+    background-color: #faf9f7;
+  }
+  body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    margin-left: 0;
+    padding-left: 0;
+  }
+  li{
+    list-style: none;
+    display: inline-block;
+  }
+  a{
+    text-decoration: none;
+  }
+  input:focus{
+    outline:none;
+  }
+  textarea:focus{
+    outline:none;
+  }
+  button:active, button:focus {
+    outline: none !important;
+  }
+  button::-moz-focus-inner {
+    border: 0 !important;
+  }
+  .show-error{
+    display: block!important;
+  }
